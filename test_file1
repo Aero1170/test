@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read dir
+echo "$dir"
+
+if [[ -d $dir ]];
+then
+   echo "$dir exist"
+else
+   echo "$dir n'existe pas"
+fi

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "La variable 1 est :";
+read var1
+var2=toto
+
+if [[ $var1 = $var2 ]]; then
+	echo "good"
+else
+	echo "not good"
+fi
+
